@@ -14,19 +14,16 @@ which newspapers work.
 Installation
 ------------
 
-<code>
-mkdir madsack madsack/zeitung
-cd madsack
-git clone https://github.com/cato-/haz-epaper-grabber.git
-cd haz-epaper-grabber
-./madsack-epaper-grabber.sh -u [user] -p [password] -a
-</code>
+    mkdir madsack madsack/zeitung
+    cd madsack
+    git clone https://github.com/cato-/haz-epaper-grabber.git
+    cd haz-epaper-grabber
+    ./madsack-epaper-grabber.sh -u [user] -p [password] -a
 
 Select the code (first word on each line) for the newspaper you would like to fetch and add something like the following
 to your crontab:
-<code>
-00 01 * * 1-6 $PATHTOYOURDIR/madsack/haz-epaper-grabber/madsack_epaper_grabber.sh -u [user] -p [password] -d $PATHTOYOURDIR/madsack/zeitung -i [code] [code2]
-</code>
+
+    00 01 * * 1-6 $PATHTOYOURDIR/madsack/haz-epaper-grabber/madsack_epaper_grabber.sh -u [user] -p [password] -d $PATHTOYOURDIR/madsack/zeitung -i [code] [code2]
 
 Licence
 -------
