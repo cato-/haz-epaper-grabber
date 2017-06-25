@@ -1,3 +1,8 @@
+BEWARE: UNMAINTAINED PROJECT
+============================
+
+Since I am no longer subscribed to HAZ, there will be no updates to this. Since 19th of July 2017 the script does not work anymore due to changes of the ePaper section.
+
 Madsack E-Paper Grabber
 =======================
 
